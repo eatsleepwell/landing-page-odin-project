@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans Sundanese", sans-serif;
+  background-color: rgba(226, 226, 226, 255);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 30px 20px;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+header .header-bandung {
+  position: absolute;
+  left: -50px;
+  top: 25px;
+}
+
+.one {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bandung {
+  height: 550px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.description-one {
+  background-color: rgba(230, 84, 61, 255);
+  color: rgba(41, 59, 50, 255);
+  width: 600px;
+  height: 620px;
+  border-radius: 0 25px 0 10px;
+}
+
+.description-one h2 {
+  font-size: 50px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.description-one p:nth-child(2) {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 200px;
+}
+
+.description-one p {
+  font-size: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.bordered-text {
+  -webkit-text-stroke: 2px rgba(230, 84, 61, 255); /* Tambahkan batas berupa garis hitam tebal sebanyak 2px */
+  color: transparent;
+  font-size: 40px;
+  text-transform: uppercase;
+  position: absolute;
+  left: -50px;
+}
+
+/* section 2 */
+.two {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+.container-img {
+  height: 500px;
+  width: 400px;
+}
+
+.section-two-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
